@@ -18,7 +18,7 @@
 #### **1️⃣ Clonar el repositorio**  
 Ejecuta en tu terminal (Git Bash, CMD o PowerShell):  
 ```bash
-git clone https://github.com/tu-usuario/Optica-nur-web.git
+git clone https://github.com/[tu-usuario]/Optica-nur-web.git
 cd Optica-nur-web
 ```
 
