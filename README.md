@@ -1,7 +1,4 @@
 # Franyel_Pacheco
-
-
-
 # 📋 Proyecto Óptica Nur - Sitio Web  
 **Desarrollo de una página web estática para promocionar servicios y productos ópticos en Barquisimeto, Venezuela**  
 
@@ -27,10 +24,8 @@ Cada uno debe trabajar en su propia rama con el nombre de su página:
 ```bash
 git checkout -b feature/nombre-de-tu-pagina
 ```
-**Ejemplos**:  
-- `feature/contacto` (Franyel)  
-- `feature/catalogo` (Virginia)  
-- `feature/ubicacion` (Sebastián)  
+**Ejemplo**:  
+- `feature/contacto` (Caso de Franyel)  
 
 #### **3️⃣ Editar los archivos asignados**  
 - Modifica **solo** tu archivo HTML en `/pages` y tu CSS en `/assets/css`.  
@@ -52,17 +47,6 @@ git push origin feature/nombre-de-tu-pagina
 2. Haz clic en **"New Pull Request"**.  
 3. Compara tu rama (`feature/nombre-de-tu-pagina`) con `main`.  
 4. Describe los cambios y asigna a un compañero para revisión.  
-
----
-
-### **🔄 Sincronizarse con los últimos cambios**  
-Antes de trabajar cada día, actualiza tu rama:  
-```bash
-git checkout main
-git pull origin main
-git checkout feature/nombre-de-tu-pagina
-git merge main
-```
 
 ---
 
@@ -151,34 +135,6 @@ Optica-nur-web/
 3. **Nomenclatura**:  
    - Archivos en **minúsculas** con guiones: `preguntas-frecuentes.html`  
    - Clases en **lowercase**: `.galeria-productos`
-
----
-
-## 🔄 Flujo de Trabajo con Git  
-1. **Antes de empezar**:  
-```bash
-git pull origin main
-```
-
-2. **Crear nueva rama**:  
-```bash
-git checkout -b feature/nombre-pagina
-```
-
-3. **Hacer commits descriptivos**:  
-```bash
-git commit -m "feat(nombre-pagina): informacion al grano (pero exacta) del cambio"
-```
-
-4. **Subir cambios**:  
-```bash
-git push origin feature/nombre-pagina
-```
-
-5. **Hacer merge**:  
-   - Crear Pull Request en GitHub  
-   - Revisión de otro miembro  
-   - Merge a `main`  
 
 ---
 
